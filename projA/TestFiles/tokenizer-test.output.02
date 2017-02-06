@@ -1,0 +1,12 @@
+(:open
++:symbol
+2:integer
+10000:integer
+-0.00003:double
+.02:double
+0.3:double
+0.4:double
+abcdef:symbol
+#f:boolean
+#t:boolean
+):close

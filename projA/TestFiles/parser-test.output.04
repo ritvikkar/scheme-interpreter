@@ -1,0 +1,1 @@
+( define ordered? ( lambda ( L )  ( if ( null? ( cdr L )  )  #t ( and ( < ( car L )  ( cadr L )  )  ( ordered? ( cdr L )  )  )  )  )  )  ( define bst? ( lambda ( L )  ( if ( not ( binary-tree? L )  )  #f ( ordered? ( inorder-traverse L )  )  )  )  )   

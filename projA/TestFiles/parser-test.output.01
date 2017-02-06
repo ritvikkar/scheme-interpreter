@@ -1,0 +1,1 @@
+( define ( list-of-squares n )  ( let loop ( ( i n )  ( res ( quote 1 2 )  )  )  ( if ( < i 0 )  res ( loop ( - i 1 )  ( cons ( * i i )  res )  )  )  )  ) 

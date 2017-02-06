@@ -1,0 +1,7 @@
+(;this is a long annoying comment
+"this is a string with a \n newline" ;more comments
+"this is a string with a \t tab" ;more comments
+"this is a string with a \' single-quote" ;more comments
+"this is a string with a \" double-quote" ;more comments
+"this is a string with a \\ backslash");more parens for fun
+))))

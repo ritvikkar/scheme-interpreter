@@ -1,0 +1,7 @@
+(define x (quote (1 2 3))) 
+(define y (quote (1 2 3))) 
+(eq? x y) 
+(equal? x y) 
+(define y x) 
+(eq? x y) 
+(equal? x y)

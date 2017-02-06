@@ -1,0 +1,9 @@
+(define map
+    (lambda (f l)
+      (cond
+		((null? l) (quote ()))
+		(#t (cons
+	      (f (car l))
+	      (map f (cdr l)))))))
+
+(map (lambda (x) (* x x)) (quote (1 2 3)))

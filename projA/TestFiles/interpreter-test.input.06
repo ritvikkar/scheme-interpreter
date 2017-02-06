@@ -1,0 +1,3 @@
+(if (and (null? (quote ())) (+ 1 2))
+    (quote true)
+    3)

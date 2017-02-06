@@ -1,0 +1,12 @@
+(:open
+"this is a string with a 
+ newline":string
+"this is a string with a     tab":string
+"this is a string with a ' single-quote":string
+"this is a string with a " double-quote":string
+"this is a string with a \ backslash":string
+):close
+):close
+):close
+):close
+):close
